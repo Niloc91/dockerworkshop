@@ -37,7 +37,7 @@ Angular cli tool
 - example – `docker build -t local/exampleapp -f Dockerfile .`
 - `**docker images**`
 
-## Excercises
+## Exercises
 
 ### Dockerhub account
 
