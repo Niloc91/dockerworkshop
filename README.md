@@ -76,3 +76,6 @@ Using configuration above have both images running 2 instances of BE and FE.
 FE should be served on ports 80 and 81
 
 BE should be served on ports 8080 and 8081
+
+### Configuration changes
+Configure from docker-compose file, the index.html on the FE instance to switch between the 2 backend instances without rebuilding the image. 
