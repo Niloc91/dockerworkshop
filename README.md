@@ -27,15 +27,15 @@ Angular cli tool
 
 ## Helpful commands
 
-- **docker pull** <container repo>/<image name>:<tag> (pull image from container repo)
+- `**docker pull** <container repo>/<image name>:<tag> (pull image from container repo)`
 - example – docker pull nginx:15.9-alpine (no need to specify repo as from dockerhub)
-- **docker tag** <old tag> <new tag> (used to tag images, generally used to tag and pushto a new container repo)
-- **docker login** -u <username>
-- **docker push** <container repo>/<image name>
-- **docker ps**
-- **docker build** -t <image name> -f <path to dockerfile> <build context>
+- `**docker tag** <old tag> <new tag>` (used to tag images, generally used to tag and pushto a new container repo)
+- `**docker login** -u <username>`
+- `**docker push** <container repo>/<image name>`
+- `**docker ps**`
+- `**docker build** -t <image name> -f <path to dockerfile> <build context>`
 - example – docker build -t local/exampleapp -f Dockerfile .
-- **docker images**
+- `**docker images**`
 
 ## Excercises
 
